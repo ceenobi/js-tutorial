@@ -13,7 +13,7 @@ myFunctionName();
 today();
 
 //functions are made of - function keyword, parenthesis, curly braces and the return keyword
-//the return keyword is used to give the reult of the function and can only be used when writing functions. Nothing should be written after the return statement
+//the return keyword is used to give the result of the function and can only be used when writing functions. Nothing should be written after the return statement
 
 function addMe() {
   return 3 + 3;
@@ -36,7 +36,9 @@ greetMe("Ayo"); //argument
 greetMe("Ay");
 greetMe("A");
 
-const multiplyMe = (number) => number * 3 
+const multiplyMe = (number) => {
+  number * 3;
+};
 console.log(multiplyMe(4));
 
 //calc total spent on food
@@ -50,3 +52,16 @@ console.log(calcFoodTotal(600, 50));
 
 //write a function that splits the bill of our calcFoodTotal to be shared among users. if the user is less than or equal to 1, the bill should return the total.
 //but if the user is more than 1, the bill should be split among the users
+
+function splitBill(calcFoodTotal, users) {
+  if (users <= 1) {
+    return calcFoodTotal;
+  } else if (users > 1) {
+    const bill = calcFoodTotal / users;
+    return bill;
+  }
+}
+console.log(splitBill(calcFoodTotal(600, 50), 3));
+
+
+export { sumMe };
