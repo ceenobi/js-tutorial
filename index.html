@@ -1,12 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
+  </head>
+  <body>
+    <h1 id="hello"></h1>
+    <h2 name="nameh2">Target h2 by name attribute</h2>
+    <p>target by tag name</p>
+    <h3 class="h3class">target by classname</h3>
+
+    <h1 class="query">css query selector</h1>
+    <h1 class="queryAll">css query selectorall</h1>
+    <h1 class="queryAll">css query selectorall</h1>
+
+    <img id="img"/>
+
+    <!-- node tree -->
+    <div id="parent">
+      <div id="first-child">first child</div>
+      <div id="second-child">second child</div>
+      <h3>Thursday</h3>
+      <p>last child</p>
+    </div>
+    <button id="styleButton">click me</button>
+
     <script src="./variables.js"></script>
     <script src="./datatypes.js"></script>
     <script src="./oerators.js"></script>
@@ -19,5 +38,6 @@
     <script src="./loops.js"></script>
     <script src="./excercise.js" type="module"></script>
     <script src="./higherOrderFunctions.js" type="module"></script>
-</body>
+    <script src="./dom.js" type="module"></script>
+  </body>
 </html>

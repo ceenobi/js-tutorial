@@ -93,3 +93,16 @@ console.log(findMaxNum);
 
 //there the reduce method starts by 30 as the accumulator and 40 as the current value. it will check if 40 is greater than 30, if so, it updates the accumulator to 40. it will once again set 40 as the currentvalue and check if 65 is greater than 40.
 //it does this until it gets to 70 where the 70 as the current value is not greater than 70 as the accumulator and so therefore returns back 70 as te maximum value
+
+
+//for each method loops through an array and provides a callback function on each array element
+const weather = ["cloudy", "sunny", "humid"];
+weather.forEach((item, index) => console.log(`${index} ${item}`));
+
+//map and forEach can take up to 3 argument - the current element, index -the index of the array elements, and the array itself. the index and the array element is optional
+
+actors.forEach(({ name, networth }) => {
+  if (networth > 600000) {
+    console.log(name);
+  }
+});
