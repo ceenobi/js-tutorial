@@ -134,7 +134,7 @@ const showResult = () => {
   gameScreen.style.display = "none";
   resultScreen.style.display = "block";
   resultScreen.querySelector(".correct").textContent =
-    `Corect answers: ${correctCount}`;
+    `Correct answers: ${correctCount}`;
   resultScreen.querySelector(".wrong").textContent =
     `Wrong answers: ${wrongCount}`;
 };

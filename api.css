@@ -1,0 +1,72 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: rgb(28, 26, 26)
+}
+
+body {
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+header a {
+    margin-left: 20px;
+}
+
+section {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 40px
+}
+
+.topRated {
+
+    text-align: center;
+}
+
+.topRatedProducts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+.topRatedProductCard {
+    width: 45%;
+    height: 500px;
+}
+
+.topRatedProductCard img {
+    width: 100%;
+    height: 100%;
+}
+
+.allProducts {
+    display:  flex; 
+    flex-wrap: wrap; 
+    margin-top: 150px;
+}
+
+.productCard {
+    width: 280px; 
+    height: 400px; 
+}
+
+.productCard img {
+    width: 90%; 
+    height: 70%; 
+}
+.productCard p, h4  {
+    text-align: center;
+}
