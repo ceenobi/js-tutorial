@@ -34,6 +34,41 @@ const data = [
     price: 400000,
     cat: "Phones",
   },
+  {
+    id: 6,
+    name: "Iphone 16 Pro Max",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-lBE2Z7hXawkU1TtLp8m7qZfG8hBLdbZow&s",
+    price: 3500000,
+    cat: "Phones",
+  },
+  {
+    id: 7,
+    name: "Google Pixel 9 Pro Xl",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl4bHTX-ZGT8owiPpINw5WUIXu8b8NS1RKvw&s",
+    price: 2500000,
+    cat: "Phones",
+  },
+  {
+    id: 8,
+    name: "Beats studio buds",
+    img: "https://shopcgx.com/cdn/shop/files/6501045_sd.jpg?v=1708039738",
+    price: 1500000,
+    cat: "Earbuds",
+  },
+  {
+    id: 9,
+    name: "Apple watch series 9",
+    img: "https://istyle.si/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/a/p/apple_watch_series_9_gps_45mm_midnight_aluminum_midnight_sport_band_34fr_screen__usen_t-0_1.jpg",
+    price: 4500000,
+    cat: "Smartwatch",
+  },
+  {
+    id: 10,
+    name: "Oraimo buds Burna",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRUhc8KUfGeTg6h4HaPF6nTs3BoTpG9gJBw&s",
+    price: 4500000,
+    cat: "Earbuds",
+  },
 ];
 
 const categoryContainer = document.querySelector(".cats");

@@ -89,28 +89,28 @@ switch (getDate) {
 // alert("hey")
 // prompt("Enter your name");
 
-//write a code that ask for a question using the prompt method
-//the question should say "Who is there?"
-//if the question reply is 'Dami', it should prompt for a password
-//if the question reply is not 'Dami', alert('I dont know you')
-//if the password is 'javascript', alert('Welcome')
-//if the password is not 'javascript', alert('wrong password')
-//if there is no question, alert('cancelled')
+// write a code that ask for a question using the prompt method
+// the question should say "Who is there?"
+// if the question reply is 'Dami', it should prompt for a password
+// if the question reply is not 'Dami', alert('I dont know you')
+// if the password is 'javascript', alert('Welcome')
+// if the password is not 'javascript', alert('wrong password')
+// if there is no question, alert('cancelled')
 
 // let question = prompt("Who is there");
 
-// if (question === "Dami") {
-//   let password = prompt("Enter password");
-//   if (password === "javascript") {
-//     alert("Welcome");
-//   } else if (password !== "javascript") {
-//     alert("wrong password");
-//   }
-// } else if (!question) {
-//   alert("cancelled");
-// } else if (question !== "Dami") {
-//   alert("I dont know you");
-// }
+if (question === "Dami") {
+  let password = prompt("Enter password");
+  if (password === "javascript") {
+    alert("Welcome");
+  } else if (password !== "javascript") {
+    alert("wrong password");
+  }
+} else if (!question) {
+  alert("cancelled");
+} else if (question !== "Dami") {
+  alert("I dont know you");
+}
 
 
 // const operator = prompt("Enter operator (either +, -, *, or /");

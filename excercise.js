@@ -1,6 +1,6 @@
 import { sumMe } from "./functions.js";
 
-//using for of loop, write a function that triples number. You are send the result of the tripled numbers in a new array
+//using for of loop, write a function that triples number. You are put the result of the tripled numbers in a new array
 
 const tripleNUM = (numbers) => {
   let result = [];
@@ -12,7 +12,7 @@ const tripleNUM = (numbers) => {
 
 console.log(tripleNUM([2, 3, 4, 5]));
 
-//write a function that takes a parameter "stringArr". The argument of the parameter should be an array of strings whose values should be uppercased. Return your arguments in a new array
+//write a function that takes a parameter "stringArr". The argument of the parameter should be an array of strings whose values should be be returned in a new array and in uppercased. 
 function uperCased(stringArr) {
   let result = [];
   result.push(stringArr[0].toUpperCase());
@@ -23,7 +23,7 @@ console.log(uperCased(["Today is monday", "It is noon"]));
 
 //create an array named todos - which should be an array of objects whose properties should be - title, duedate and id. Their values should in string
 //write a function that lets you add a new item to the todos array
-//for the value of duedate, you are to use date get time method and ensure it as a string.
+//for the value of duedate, you are to use date get time method and ensure it is a string.
 
 const todos = [
   {
@@ -66,3 +66,25 @@ console.log(
     },
   ])
 );
+
+const sumArray = (numbers) => {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum;
+};
+
+const eee = {
+  tt: 3,
+  ss: 5,
+  ll: 6
+}
+const ss = (num)=> {
+  let tt = []
+  for (let rr in num) {
+    tt.push[rr + 4]
+
+  }
+}
+console.log(ss(eee));
